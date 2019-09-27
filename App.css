@@ -30,14 +30,12 @@
   font-size: 2em;
   font-size: 3.5em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 6px 10px 0 rgba(159, 235, 18, 0.911);
   margin: 1em;
   user-select: none;
  }
-
  
  .activeCard {
-  color: rgb(3, 190, 43);
-  background: rgb(216, 9, 181);
-  color: rgb(177, 248, 10);
-  background: rgb(119, 228, 210);
- } 
+  color: rgb(234, 14, 241);
+  background: rgb(22, 172, 241);
+ }
