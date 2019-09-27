@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import WordCard from './WordCard';
-const word = "WELCOME";
-const word = "TEST123";
+const word = "MIDTERMEXAM";
+// const word = "HELLOFINALTERMEXAM";
 
 
 class App extends Component {

@@ -17,40 +17,30 @@ export default class CharacterCard extends Component {
             this.props.activationHandler(this.props.value)
             this.setState({active: true})
         }
+        else
+            this.setState({active: false})
     } 
-    componentDidUpdate(prevProps){
-        if(prevProps.attemt !== this.props.attempt){
-          this.setState({active:false})
-           }
-       }
+
        componentDidUpdate(prevProps){
         if(prevProps.attempt != this.props.attempt){
           this.setState({active: false})
             this.setState({active: false})
             }
+        
         }
-      }
+        
+      
 
-    render(){
-     let className = `card ${this.state.active ? 'activeCard': ''}`
-
-    return (
-
-     render(){
+      render(){
         let className = `card ${this.state.active ? 'activeCard': ''}`
-
+      
      return (
         <div className={className} onClick={this.activate}>
         {this.props.value}
- </div>
         </div>
-
-    )
-    }
-   } 
-   }
-
-       {this.props.value}</div>
-  )
+     )
+           
+  
   }
- }  
+ } 
+  
