@@ -6,10 +6,10 @@
   height: 80px;
 }
 .App-header {
-  background-color: #222;
+  background-color: rgb(255, 255, 255);
   height: 150px;
   padding: 20px;
-  color: white;
+  color: rgb(177, 8, 8);
 }
 .App-title {
   font-size: 1.5em;
@@ -28,16 +28,15 @@
   text-align: center;
   width: 3em;
   font-size: 3.5em;
-  box-shadow: 0 4px 8px 0 rgba(7, 186, 199, 0.2);
-  box-shadow: 0 6px 10px 0 rgba(3, 255, 87, 0.911);
+  box-shadow: 0 6px 10px 0 rgba(196, 250, 2, 0.911);
   margin: 1em;
   user-select: none;
+  color: rgb(80, 2, 63);
+  background: rgb(255, 255, 255);
  }
- 
 
+ 
  .activeCard {
-  color: rgb(233, 3, 3);
-  color: rgb(2, 2, 2);
-  background: rgb(228, 13, 181);
- } 
- } 
+  color: rgb(8, 8, 8);
+  background: rgb(252, 4, 4);
+ }
