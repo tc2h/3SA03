@@ -27,15 +27,17 @@
   display: inline-block;
   text-align: center;
   width: 3em;
-  font-size: 2em;
   font-size: 3.5em;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  box-shadow: 0 6px 10px 0 rgba(159, 235, 18, 0.911);
+  box-shadow: 0 4px 8px 0 rgba(7, 186, 199, 0.2);
+  box-shadow: 0 6px 10px 0 rgba(3, 255, 87, 0.911);
   margin: 1em;
   user-select: none;
  }
  
+
  .activeCard {
-  color: rgb(234, 14, 241);
-  background: rgb(22, 172, 241);
- }
+  color: rgb(233, 3, 3);
+  color: rgb(2, 2, 2);
+  background: rgb(228, 13, 181);
+ } 
+ } 
